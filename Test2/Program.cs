@@ -13,6 +13,8 @@ namespace Test2
             Greeter.Hello();
             Greeter.Goodbye();
             Console.WriteLine("And goodbye!");
+            Console.WriteLine("Press any key...");
+            Console.ReadKey();
         }
     }
 
