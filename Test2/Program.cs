@@ -10,8 +10,8 @@ namespace Test2
     {
         static void Main(string[] args)
         {
-            Hello();
-            Goodbye();
+            Greeter.Hello();
+            Greeter.Goodbye();
             Console.WriteLine("And goodbye!");
         }
     }
