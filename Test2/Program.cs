@@ -13,7 +13,8 @@ namespace Test2
             Greeter.Hello();
             Greeter.Goodbye();
             Console.WriteLine("And goodbye!");
-            Greeter.Friday();
+            Console.WriteLine("Press any key...");
+            Console.ReadKey();
         }
     }
 
@@ -24,10 +25,6 @@ namespace Test2
             Console.WriteLine("Hello");
         }
         public static void Goodbye()
-        {
-            Console.WriteLine("Goodbye");
-        }
-        public static void Friday()
         {
             Console.WriteLine("Goodbye");
         }
