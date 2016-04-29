@@ -10,8 +10,21 @@ namespace Test2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hej Codesion & Bitbucket!");
+            Hello();
+            Goodbye();
             Console.WriteLine("And goodbye!");
+        }
+    }
+
+    static class Greeter
+    {
+        public static void Hello()
+        {
+            Console.WriteLine("Hello");
+        }
+        public static void Goodbye()
+        {
+            Console.WriteLine("Goodbye");
         }
     }
 }
